@@ -37,7 +37,7 @@ namespace DoorControl
         public bool FakeDoorOpened()
         {
             _Door.FakeOpen();
-            return false;
+            return true;
         }
         public bool FakeDoorClosed()
         {
