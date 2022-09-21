@@ -11,6 +11,7 @@ namespace DoorControl
         public bool FakeOpen()
         {
             return true;
+
         }
 
         public bool FakeClose()
